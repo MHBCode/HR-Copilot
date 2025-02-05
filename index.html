@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background: linear-gradient(171deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 52%, rgba(0,212,255,1) 100%);
+            }
+            .chat-bot{
+                width: 350px;
+                height: 70vh;
+                position: absolute;
+                top: 15vh;
+                right: 100px;
+                border-radius: 20px;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            }
+            .Title{
+                position: absolute;
+                top: 15vh;
+                left: 100px;
+                width: 40vw;
+                color: white;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .h2{
+                font-size: 38px;
+                font-weight: 500;
+            }
+            .p{
+                font-weight: 200;
+            }
+            .refs{
+                display: flex;
+                flex-direction: row;
+                gap: 1rem;
+                row-gap: 1rem;
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+            }
+            .img{
+                height: 100px;
+                width: auto;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Title">
+            <h2 class="h2">
+                Mosaed - HR Management Agent
+            </h2>
+            <p class="p">
+                This AI-powered assistant helps HR managers 
+                efficiently track employee details, monitor attendance, review performance, manage payroll, 
+                and stay updated on company policies. Ask about employee profiles, leave balances, salary details, 
+                and more – all in one place. Let’s streamline HR processes and enhance workforce management together!
+            </p>
+            <div class="refs">
+                <img class="img" src="Microsoft-Copilot.webp">
+                <img class="img" src="OIP.jpg">
+                <img class="img" src="R.png">
+                <img class="img" src="fop.png">
+                <img class="img" src="teams.png">
+                <img class="img" src="azure.png">
+            </div>
+        </div>
+        <iframe 
+            class="chat-bot"
+            src="https://copilotstudio.microsoft.com/environments/fe3e2b4f-107c-e98c-af98-cbfb4f465f40/bots/cre79_hrManagerAgent/webchat?__version__=2" 
+            frameborder="0" >
+        </iframe>
+    </body>
+</html>
